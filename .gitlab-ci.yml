@@ -34,7 +34,7 @@ build-front-end-job:
     # You need to substitute in your real values for
     # GROUP_NAME, PROJECT_NAME, & WEBSERVICE_NAME below.
     PUBLIC_URL: https://alperade.gitlab.io/fomore
-    REACT_APP_FOMORE_API_HOST: https://fomore.onrender.com
+    REACT_APP_FOMORE_API_HOST: https://fomore-yqd4.onrender.com
   script:
     - cd ghi
     - npm install
