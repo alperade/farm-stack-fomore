@@ -16,15 +16,15 @@ function App() {
         <Nav />
         <div className="container">
           <Routes>
-            <Route path="/module3-project-gamma/" element={<Main />} />
-            <Route path="/module3-project-gamma/ItineraryForm" element={<ItineraryForm />} />
-            <Route path="/module3-project-gamma/EventForm" element={<EventForm />} />
-            <Route path="/module3-project-gamma/UpdateEvent" element={<UpdateEventForm />} />
-            <Route path="/module3-project-gamma/Itineraries" element={<Itineraries />} />
-            <Route path="/module3-project-gamma/Events" element={<Events />} />
-            <Route path="/module3-project-gamma/ItineraryDetail" element={<ItineraryDetail />} />
+            <Route path="/fomore/" element={<Main />} />
+            <Route path="/fomore/ItineraryForm" element={<ItineraryForm />} />
+            <Route path="/fomore/EventForm" element={<EventForm />} />
+            <Route path="/fomore/UpdateEvent" element={<UpdateEventForm />} />
+            <Route path="/fomore/Itineraries" element={<Itineraries />} />
+            <Route path="/fomore/Events" element={<Events />} />
+            <Route path="/fomore/ItineraryDetail" element={<ItineraryDetail />} />
             <Route
-              path="/module3-project-gamma/UpdateItineraryForm"
+              path="/fomore/UpdateItineraryForm"
               element={<UpdateItineraryForm />}
             />
           </Routes>

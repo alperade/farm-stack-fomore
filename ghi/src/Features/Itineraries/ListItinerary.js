@@ -30,7 +30,7 @@ function Itineraries() {
               <Card.Header as="h5">
                 <Col>{itinerary.name} </Col>
                 <Col>
-                  <Link to={`/module3-project-gamma/ItineraryDetail/?initialid=${itinerary.id}`}>
+                  <Link to={`/fomore/ItineraryDetail/?initialid=${itinerary.id}`}>
                     <button
                       style={{ float: "right" }}
                       className="button is-primary"
@@ -54,7 +54,7 @@ function Itineraries() {
                 >
                   delete
                 </button>
-                <Link to={`/module3-project-gamma/UpdateItineraryForm/?initialid=${itinerary.id}`}>
+                <Link to={`/fomore/UpdateItineraryForm/?initialid=${itinerary.id}`}>
                   <Button
                     style={{ float: "right" }}
                     className="button is-primary"

@@ -43,7 +43,7 @@ function LogoutButton() {
     const actionId = updateItinerary({ itineraryId: "" });
     dispatch(actionId);
     if (data) {
-      navigate('/module3-project-gamma/');
+      navigate('/fomore/');
     }
   });
 
@@ -63,7 +63,7 @@ function FomoreNav() {
     <>
       <Navbar bg="light" expand="lg">
         <Container fluid>
-          <NavLink href="/module3-project-gamma/" className="nav-logo">
+          <NavLink href="/fomore/" className="nav-logo">
             <img alt="logo" src={logo}></img>
           </NavLink>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -73,12 +73,12 @@ function FomoreNav() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="/module3-project-gamma/">Home</Nav.Link>
+              <Nav.Link href="/fomore/">Home</Nav.Link>
               {token ? (
                 <>
-                  <Nav.Link href="/module3-project-gamma/ItineraryForm">Create Itinerary</Nav.Link>
-                  <Nav.Link href="/module3-project-gamma/EventForm">Create Event</Nav.Link>
-                  <Nav.Link href="/module3-project-gamma/Itineraries">My Itineraries</Nav.Link>
+                  <Nav.Link href="/fomore/ItineraryForm">Create Itinerary</Nav.Link>
+                  <Nav.Link href="/fomore/EventForm">Create Event</Nav.Link>
+                  <Nav.Link href="/fomore/Itineraries">My Itineraries</Nav.Link>
                 </>
               ) : (
                 <p className="d-none"></p>
